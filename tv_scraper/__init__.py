@@ -18,3 +18,7 @@ __version__ = "0.1.0"
 __author__ = "Anurag Jha"
 __email__ = "anuragjha507@gmail.com"
 __github__ = "https://github.com/anuragjha0001/tv-scraper"
+
+from .core import TvDatafeed
+
+__all__ = ["TvDatafeed"]
