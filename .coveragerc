@@ -1,0 +1,5 @@
+[run]
+source = tv_scraper
+omit = tests/*,setup.py
+[report]
+exclude_lines = pragma: no cover

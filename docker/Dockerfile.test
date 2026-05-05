@@ -1,0 +1,6 @@
+FROM python:3.11-slim
+LABEL author="Anurag Jha <anuragjha507@gmail.com>"
+WORKDIR /app
+COPY . .
+RUN pip install -e ".[all]"
+CMD ["pytest", "tests/", "-v"]
